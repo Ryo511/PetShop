@@ -26,11 +26,11 @@ struct SearchView: View {
                     Marker(item: result)
                 }
                 
-                Marker("中野区", systemImage: "house", coordinate: .nakanoku)
-                    .tint(.brown)
-                ForEach(mapItem, id: \.self) { result in
-                    Marker(item: result)
-                }
+//                Marker("中野区", systemImage: "house", coordinate: .nakanoku)
+//                    .tint(.brown)
+//                ForEach(mapItem, id: \.self) { result in
+//                    Marker(item: result)
+//                }
             }
         }
     }
