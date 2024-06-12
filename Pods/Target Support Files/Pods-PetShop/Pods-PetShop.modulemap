@@ -1,0 +1,6 @@
+framework module Pods_PetShop {
+  umbrella header "Pods-PetShop-umbrella.h"
+
+  export *
+  module * { export * }
+}

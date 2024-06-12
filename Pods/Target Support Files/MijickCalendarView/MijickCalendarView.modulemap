@@ -1,0 +1,6 @@
+framework module MijickCalendarView {
+  umbrella header "MijickCalendarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MijickCalendarView (1.0.0)
+
+DEPENDENCIES:
+  - MijickCalendarView
+
+SPEC REPOS:
+  trunk:
+    - MijickCalendarView
+
+SPEC CHECKSUMS:
+  MijickCalendarView: 20315f5db9cf51e393ca38792298ff02383d8346
+
+PODFILE CHECKSUM: 4896f0cbdc2384912a0c96d485ee070b1549afac
+
+COCOAPODS: 1.15.2

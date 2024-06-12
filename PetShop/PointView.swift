@@ -25,7 +25,6 @@ struct PointView: View {
                 }
 //                        .toolbar(.hidden, for: .tabBar)
                 
-                
                     SearchView()
                     .tag(Tab.search)
 //                    .toolbar(.hidden, for: .tabBar)

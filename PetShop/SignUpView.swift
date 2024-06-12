@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SignUpView: View {
+    
     @State private var name: String = ""
     @State private var furigana: String = ""
     @State private var phonenumber: String = ""
@@ -16,9 +17,7 @@ struct SignUpView: View {
     @State private var gender: String = "男性"
     @State private var mail: String = ""
     @Binding var showSignUpView: Bool
-    
     let genders = ["女性", "男性", "其他"]
-    
     var body: some View {
         VStack(alignment: .leading) {
             Text("名前")
@@ -59,7 +58,6 @@ struct SignUpView: View {
             Button("登録") {
                 
             }
-            
             .frame(maxWidth: .infinity)
         }
         .padding()

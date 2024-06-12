@@ -1,0 +1,1086 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098E7BAE38E96200EFAFD439FF95FF35 /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF4E3F5AA134DBD9B0ECA47543E166 /* Combine.framework */; };
+		1565A8D2D0B23FC3317BB95A198B5807 /* Public+WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D73053E090FF8C4FD4E1B0BFC9E29 /* Public+WeekdaysView.swift */; };
+		2143F0313BB5F7307E07DEA7FFAF69EF /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4FE9204E2B4FC84E1F36E5D871A176 /* Color++.swift */; };
+		29621C971B9A7EB1FFDC554BCB42547C /* Public+CalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0690B343DD50EBAC60F53D227036419 /* Public+CalendarConfig.swift */; };
+		3B90BA7345E7CD78C1E69CE77D8E7D99 /* Public+WeekdayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348BD33B00F6351E02D65001497B920D /* Public+WeekdayLabel.swift */; };
+		45B6660EF8C61A83AE91B72E65DE3CCF /* MCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2561B1B6E1EB53D56ABE0920D385407 /* MCalendarView.swift */; };
+		45E95008B51FBF482FD2FA13D12D07D1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC307FB53795974D990B24D8398030F /* Data.swift */; };
+		46FDAB2858C25D2AA322BA461CE43F06 /* AnyWeekdayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1B04BC4988B7C031134D2368532119 /* AnyWeekdayLabel.swift */; };
+		4B601021277C740865594BBD67F65CB0 /* Public+MCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32BBED558C6A915FEB12B4CDA5EA93 /* Public+MCalendarView.swift */; };
+		539CD6000DFB2E5A226C00A2D1223A9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BDD9CBC6DD79CDFAFD4D0E9CFDD52D /* Foundation.framework */; };
+		577FF0DA7BD1AD46BF14BF65EDA341E9 /* DefaultWeekdayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93CB2519B7A897915796038481FFFC /* DefaultWeekdayLabel.swift */; };
+		6C25705471319407F890D54030789419 /* DefaultWeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB936C4211C7791C5EA13D5432E7A94 /* DefaultWeekdaysView.swift */; };
+		73E5CF57726D5F72EA5A1202AE04CD25 /* Public+MonthLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763ABA91316B91901ACFB3258C5153AB /* Public+MonthLabel.swift */; };
+		74370C1ED69F5A6F0639F5C38B5D7C7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BDD9CBC6DD79CDFAFD4D0E9CFDD52D /* Foundation.framework */; };
+		7C9DEEC88C6B43694B6163E769382859 /* RoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7F675F15031A27545E762601F846C9 /* RoundedRectangle.swift */; };
+		82E16D473A8815C142C0E11AABE67E63 /* Pods-PetShop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FCF5C467AA4B09F37883720B3FDE15 /* Pods-PetShop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		868A86FA86BEFFD1FE44CB87D7BC4CAB /* Data.MCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFD6BD5AB7134F79E3E151811175C6C /* Data.MCalendarView.swift */; };
+		86ED9B5C1F1D28F68D61C4BDA92AEC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BDD9CBC6DD79CDFAFD4D0E9CFDD52D /* Foundation.framework */; };
+		8BB5702E4D1281BC8F61BC54E74992A2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692A2AF4A7A89CAB9F3C827FE8569E61 /* SwiftUI.framework */; };
+		94D94DADBF15889CA612871228D0EE56 /* Public+MDateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA679C5C1493B188C59D5C983F5718 /* Public+MDateRange.swift */; };
+		94F29DE3C9A9275D674FD3072ED43785 /* MDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B30880596E20D77470CA689242BF3 /* MDateFormatter.swift */; };
+		9B6E99FBAE2D13848E6218DF94197292 /* MDateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3F0BA4F4D20A1D40A330154AF93027 /* MDateRange.swift */; };
+		9BE08E50C4D6973BD98FB3A50376D461 /* Public+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50924369EAD896C4B174C3618C78C6 /* Public+View.swift */; };
+		A024ECE6A0058247374F707DD532B16F /* Public+DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC37A0CD3E26C33D11E09C50CF6A1C /* Public+DayView.swift */; };
+		A406531FEE58D40D4E4001EE10E3D1BF /* MijickCalendarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4812BAE5099BA0C72CF86ADDEB261F6 /* MijickCalendarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B1F6E2892946CA5F0FF502F76EF561 /* DefaultDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003910528FC61C325829501B03A599F1 /* DefaultDayView.swift */; };
+		B81A9538F2A01CBA0361BF62C5E64B50 /* Pods-PetShopTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03672985E6B9E868D1A567B30BCE5815 /* Pods-PetShopTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B88A7E5B6FDB6057E476A9876C86950B /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A219245E96BD1437F0258F11E6734 /* View++.swift */; };
+		C4D8B66B2F4788FA6F33F7B5FA4F5EAE /* DefaultMonthLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869B633654229401AD0CBFA6CD985202 /* DefaultMonthLabel.swift */; };
+		CB239F328633A764C9E61B6B49D0F288 /* Public+MWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FC9B38D9383233AF0B79352ABC31C /* Public+MWeekday.swift */; };
+		D22872F33CE33F998ECC515349D2983D /* MijickCalendarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64164E07BD01100014E9D35619BF09ED /* MijickCalendarView-dummy.m */; };
+		D3F1D0EC89B1275FC675FF8952D37947 /* MWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391A5F17351832F81952460C1C2296A /* MWeekday.swift */; };
+		D5F300DA6B85FBF5526539CBA5B370E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BDD9CBC6DD79CDFAFD4D0E9CFDD52D /* Foundation.framework */; };
+		D7C32FDA91CACF75BD4C1965478C7771 /* Data.MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F4C31CAE05E684C4B791C10006881 /* Data.MonthView.swift */; };
+		DD1E6859FB146BA4EBBFF94B13C2C64A /* Date++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F03B493A44DE8393246807B42F21B7 /* Date++.swift */; };
+		DF2288F3428DC0173213348BEAD62CCD /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053765AD92C100EB2B84F182936B2D0 /* MonthView.swift */; };
+		E184DF6EFE8CFC5227C31634559009FB /* Pods-PetShopTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA188B835C62B365FC96073BF64FEB71 /* Pods-PetShopTests-dummy.m */; };
+		E5564F148C49303C0024C34B6DDFA02B /* Pods-PetShop-PetShopUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF91C743503FCE9DDD6B136712413E6 /* Pods-PetShop-PetShopUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A420FA95F63888455F5BF62BF174B0 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C5BB769C3455B438820DFC3E9E26A /* Configurable.swift */; };
+		E94349BBECF3FE9A579F1149B93115E8 /* MCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8205F664ADA9AD2BCA21EC63D61E216 /* MCalendar.swift */; };
+		F06A71C7FFADAA0C26E83085977CAB87 /* Pods-PetShop-PetShopUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1AF0142F55E35F2F74A554CD874AC /* Pods-PetShop-PetShopUITests-dummy.m */; };
+		F38FA3DC9EE809FA16A976A5F30683A5 /* Public+WeekdaySymbolFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9148E3E14655F0C86EA24550EDD184 /* Public+WeekdaySymbolFormat.swift */; };
+		F776571EFE177CA3CFDB2966E0F0AA00 /* Pods-PetShop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CDA42F1000733016CC99DC973A7F3E /* Pods-PetShop-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16F5452A67A34BC6EE7D3C922C2F62DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545B6A630F42FA975348C33F59DA20F1;
+			remoteInfo = "Pods-PetShop";
+		};
+		48F831409664A5BCBC115B466894D7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78055163B0041AFECD0B5E2B29F0569;
+			remoteInfo = MijickCalendarView;
+		};
+		E92B107CAC9BDB523C1B47E3F61CA80A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78055163B0041AFECD0B5E2B29F0569;
+			remoteInfo = MijickCalendarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003910528FC61C325829501B03A599F1 /* DefaultDayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultDayView.swift; path = Sources/Internal/Views/Default/DefaultDayView.swift; sourceTree = "<group>"; };
+		03672985E6B9E868D1A567B30BCE5815 /* Pods-PetShopTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetShopTests-umbrella.h"; sourceTree = "<group>"; };
+		07AF4E3F5AA134DBD9B0ECA47543E166 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
+		0D5CA7638640A09CFF40C87C16AFA824 /* MijickCalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MijickCalendarView.modulemap; sourceTree = "<group>"; };
+		13E9D0AC6EBE8B4973576903AA9CE938 /* Pods-PetShop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetShop.modulemap"; sourceTree = "<group>"; };
+		13F4B74BC0EABA13185A5CF068CDD4F5 /* Pods-PetShop-PetShopUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetShop-PetShopUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17F03B493A44DE8393246807B42F21B7 /* Date++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date++.swift"; path = "Sources/Internal/Extensions/Date++.swift"; sourceTree = "<group>"; };
+		202F4C31CAE05E684C4B791C10006881 /* Data.MonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.MonthView.swift; path = Sources/Internal/Data/Data.MonthView.swift; sourceTree = "<group>"; };
+		24DD0AF7B216F559A34445D81F961B18 /* Pods-PetShop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetShop-acknowledgements.plist"; sourceTree = "<group>"; };
+		29E97CE8196291011257D1D1E34C5660 /* Pods-PetShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D93CB2519B7A897915796038481FFFC /* DefaultWeekdayLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultWeekdayLabel.swift; path = Sources/Internal/Views/Default/DefaultWeekdayLabel.swift; sourceTree = "<group>"; };
+		2EB1AF0142F55E35F2F74A554CD874AC /* Pods-PetShop-PetShopUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetShop-PetShopUITests-dummy.m"; sourceTree = "<group>"; };
+		348BD33B00F6351E02D65001497B920D /* Public+WeekdayLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+WeekdayLabel.swift"; path = "Sources/Public/View Protocols/Public+WeekdayLabel.swift"; sourceTree = "<group>"; };
+		3AD87320A072C5EF3B092BE6EA1E5645 /* Pods-PetShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetShop.release.xcconfig"; sourceTree = "<group>"; };
+		4050DB4804365B49E162AB63A42C7897 /* Pods-PetShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetShop.debug.xcconfig"; sourceTree = "<group>"; };
+		41BDD9CBC6DD79CDFAFD4D0E9CFDD52D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5053765AD92C100EB2B84F182936B2D0 /* MonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthView.swift; path = Sources/Internal/Views/MonthView.swift; sourceTree = "<group>"; };
+		542665E9C65068C4611849F6B9E2F20C /* Pods-PetShopTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PetShopTests"; path = Pods_PetShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C1BC05AAB34E07164A7552C998AD3D /* Pods-PetShop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetShop-Info.plist"; sourceTree = "<group>"; };
+		555D3B0775FDC05FBC209A2587847439 /* Pods-PetShop-PetShopUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetShop-PetShopUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57AC6210409067804F1413701483EF95 /* MijickCalendarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MijickCalendarView.debug.xcconfig; sourceTree = "<group>"; };
+		5D3D06042C936227A7A4AA1EE6E48E89 /* Pods-PetShop */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PetShop"; path = Pods_PetShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2C5BB769C3455B438820DFC3E9E26A /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configurable.swift; path = Sources/Internal/Protocols/Configurable.swift; sourceTree = "<group>"; };
+		6170D0B3258573E6DD3F90A837E76901 /* Pods-PetShopTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetShopTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61AC1CD0EAEC9A4730EE9F3FC03CB383 /* MijickCalendarView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MijickCalendarView; path = MijickCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64164E07BD01100014E9D35619BF09ED /* MijickCalendarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MijickCalendarView-dummy.m"; sourceTree = "<group>"; };
+		692A2AF4A7A89CAB9F3C827FE8569E61 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		6CFC37A0CD3E26C33D11E09C50CF6A1C /* Public+DayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+DayView.swift"; path = "Sources/Public/View Protocols/Public+DayView.swift"; sourceTree = "<group>"; };
+		6E4FE9204E2B4FC84E1F36E5D871A176 /* Color++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color++.swift"; path = "Sources/Internal/Extensions/Color++.swift"; sourceTree = "<group>"; };
+		6F9FC0CE393FFA3427C12EB1750706AF /* Pods-PetShop-PetShopUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PetShop-PetShopUITests"; path = Pods_PetShop_PetShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		763ABA91316B91901ACFB3258C5153AB /* Public+MonthLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+MonthLabel.swift"; path = "Sources/Public/View Protocols/Public+MonthLabel.swift"; sourceTree = "<group>"; };
+		7A32BBED558C6A915FEB12B4CDA5EA93 /* Public+MCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+MCalendarView.swift"; path = "Sources/Public/Extensions/Public+MCalendarView.swift"; sourceTree = "<group>"; };
+		7F5A717536B705C802466DFF9D7D4CC9 /* Pods-PetShop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetShop-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FF91C743503FCE9DDD6B136712413E6 /* Pods-PetShop-PetShopUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetShop-PetShopUITests-umbrella.h"; sourceTree = "<group>"; };
+		869B633654229401AD0CBFA6CD985202 /* DefaultMonthLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultMonthLabel.swift; path = Sources/Internal/Views/Default/DefaultMonthLabel.swift; sourceTree = "<group>"; };
+		86AB0AA7422067F174A7170B813A8E8E /* Pods-PetShop-PetShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetShop-PetShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A0D73053E090FF8C4FD4E1B0BFC9E29 /* Public+WeekdaysView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+WeekdaysView.swift"; path = "Sources/Public/View Protocols/Public+WeekdaysView.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF495FFA8AE9411A174B9750F671580 /* Pods-PetShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0690B343DD50EBAC60F53D227036419 /* Public+CalendarConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+CalendarConfig.swift"; path = "Sources/Public/Configurables/Public+CalendarConfig.swift"; sourceTree = "<group>"; };
+		A21C12FC0FC327870758B60C9C2AD22F /* Pods-PetShopTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetShopTests-Info.plist"; sourceTree = "<group>"; };
+		A2561B1B6E1EB53D56ABE0920D385407 /* MCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCalendarView.swift; path = Sources/Internal/Views/MCalendarView.swift; sourceTree = "<group>"; };
+		A7E35AA49B32B70D295E65910CA0AE29 /* Pods-PetShop-PetShopUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PetShop-PetShopUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AA40238B38D4E7C5B1AC892DB6FDF8C0 /* Pods-PetShop-PetShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetShop-PetShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD3F0BA4F4D20A1D40A330154AF93027 /* MDateRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MDateRange.swift; path = Sources/Internal/Models/MDateRange.swift; sourceTree = "<group>"; };
+		AF1B04BC4988B7C031134D2368532119 /* AnyWeekdayLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyWeekdayLabel.swift; path = Sources/Internal/Erasers/AnyWeekdayLabel.swift; sourceTree = "<group>"; };
+		AF4B30880596E20D77470CA689242BF3 /* MDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MDateFormatter.swift; path = Sources/Internal/Helpers/MDateFormatter.swift; sourceTree = "<group>"; };
+		B216D349274F6330D80C1600C7E24132 /* Pods-PetShop-PetShopUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetShop-PetShopUITests.modulemap"; sourceTree = "<group>"; };
+		B391A5F17351832F81952460C1C2296A /* MWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MWeekday.swift; path = Sources/Internal/Enums/MWeekday.swift; sourceTree = "<group>"; };
+		B6CDA42F1000733016CC99DC973A7F3E /* Pods-PetShop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetShop-dummy.m"; sourceTree = "<group>"; };
+		BC9148E3E14655F0C86EA24550EDD184 /* Public+WeekdaySymbolFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+WeekdaySymbolFormat.swift"; path = "Sources/Public/Enums/Public+WeekdaySymbolFormat.swift"; sourceTree = "<group>"; };
+		BEAA679C5C1493B188C59D5C983F5718 /* Public+MDateRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+MDateRange.swift"; path = "Sources/Public/Models/Public+MDateRange.swift"; sourceTree = "<group>"; };
+		CA8FF79188A3334E24D79122B94A8BEC /* Pods-PetShop-PetShopUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetShop-PetShopUITests-Info.plist"; sourceTree = "<group>"; };
+		CF5FC9B38D9383233AF0B79352ABC31C /* Public+MWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+MWeekday.swift"; path = "Sources/Public/Enums/Public+MWeekday.swift"; sourceTree = "<group>"; };
+		D20BDA2217706E5D898729F87C476183 /* MijickCalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MijickCalendarView-prefix.pch"; sourceTree = "<group>"; };
+		D8205F664ADA9AD2BCA21EC63D61E216 /* MCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCalendar.swift; path = Sources/Internal/Models/MCalendar.swift; sourceTree = "<group>"; };
+		D87A219245E96BD1437F0258F11E6734 /* View++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View++.swift"; path = "Sources/Internal/Extensions/View++.swift"; sourceTree = "<group>"; };
+		DAFD6BD5AB7134F79E3E151811175C6C /* Data.MCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.MCalendarView.swift; path = Sources/Internal/Data/Data.MCalendarView.swift; sourceTree = "<group>"; };
+		DC3438C633F643D65E2393EE664F4916 /* Pods-PetShopTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetShopTests.modulemap"; sourceTree = "<group>"; };
+		DF7F675F15031A27545E762601F846C9 /* RoundedRectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedRectangle.swift; path = Sources/Internal/Views/Others/RoundedRectangle.swift; sourceTree = "<group>"; };
+		E1FCF5C467AA4B09F37883720B3FDE15 /* Pods-PetShop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetShop-umbrella.h"; sourceTree = "<group>"; };
+		E4812BAE5099BA0C72CF86ADDEB261F6 /* MijickCalendarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MijickCalendarView-umbrella.h"; sourceTree = "<group>"; };
+		E4E2160F65CD2CC1EA1C221B055A859E /* MijickCalendarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MijickCalendarView-Info.plist"; sourceTree = "<group>"; };
+		E6E8FE0FBFB5A771EFEAB9EF6DD7E977 /* Pods-PetShop-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PetShop-frameworks.sh"; sourceTree = "<group>"; };
+		E975D844BD56EAC0845D5FBABBEC2B6B /* Pods-PetShopTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetShopTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA188B835C62B365FC96073BF64FEB71 /* Pods-PetShopTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetShopTests-dummy.m"; sourceTree = "<group>"; };
+		EF50924369EAD896C4B174C3618C78C6 /* Public+View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Public+View.swift"; path = "Sources/Public/Extensions/Public+View.swift"; sourceTree = "<group>"; };
+		F9AE3F4DCA3DBC02A8A80FBF5460FC68 /* MijickCalendarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MijickCalendarView.release.xcconfig; sourceTree = "<group>"; };
+		FCB936C4211C7791C5EA13D5432E7A94 /* DefaultWeekdaysView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultWeekdaysView.swift; path = Sources/Internal/Views/Default/DefaultWeekdaysView.swift; sourceTree = "<group>"; };
+		FFC307FB53795974D990B24D8398030F /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Sources/Internal/Data/Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F0CC5F44502FC0A19818C2576ECE81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098E7BAE38E96200EFAFD439FF95FF35 /* Combine.framework in Frameworks */,
+				86ED9B5C1F1D28F68D61C4BDA92AEC37 /* Foundation.framework in Frameworks */,
+				8BB5702E4D1281BC8F61BC54E74992A2 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE06819319BABB37E325605CE632A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539CD6000DFB2E5A226C00A2D1223A9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EDF7C0FC7730A37DB0238D825F211F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F300DA6B85FBF5526539CBA5B370E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96797953170DD8D3ED35FA895B63A120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74370C1ED69F5A6F0639F5C38B5D7C7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDACA0F52984BA897B890EF687641E1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03F8B4B3EB0A4C6199B00479AA2D9214 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F14ACB4DF0AE256C124268503B36548 /* Pods-PetShop */,
+				1F176E6E7FE91FA625B85E6F923BCEBB /* Pods-PetShop-PetShopUITests */,
+				AD18A1BF5C2D5FC10F6CE9146AD9B1C9 /* Pods-PetShopTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11CB756BF67F91008864424E9C3CD859 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D5CA7638640A09CFF40C87C16AFA824 /* MijickCalendarView.modulemap */,
+				64164E07BD01100014E9D35619BF09ED /* MijickCalendarView-dummy.m */,
+				E4E2160F65CD2CC1EA1C221B055A859E /* MijickCalendarView-Info.plist */,
+				D20BDA2217706E5D898729F87C476183 /* MijickCalendarView-prefix.pch */,
+				E4812BAE5099BA0C72CF86ADDEB261F6 /* MijickCalendarView-umbrella.h */,
+				57AC6210409067804F1413701483EF95 /* MijickCalendarView.debug.xcconfig */,
+				F9AE3F4DCA3DBC02A8A80FBF5460FC68 /* MijickCalendarView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MijickCalendarView";
+			sourceTree = "<group>";
+		};
+		1F176E6E7FE91FA625B85E6F923BCEBB /* Pods-PetShop-PetShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B216D349274F6330D80C1600C7E24132 /* Pods-PetShop-PetShopUITests.modulemap */,
+				13F4B74BC0EABA13185A5CF068CDD4F5 /* Pods-PetShop-PetShopUITests-acknowledgements.markdown */,
+				555D3B0775FDC05FBC209A2587847439 /* Pods-PetShop-PetShopUITests-acknowledgements.plist */,
+				2EB1AF0142F55E35F2F74A554CD874AC /* Pods-PetShop-PetShopUITests-dummy.m */,
+				A7E35AA49B32B70D295E65910CA0AE29 /* Pods-PetShop-PetShopUITests-frameworks.sh */,
+				CA8FF79188A3334E24D79122B94A8BEC /* Pods-PetShop-PetShopUITests-Info.plist */,
+				7FF91C743503FCE9DDD6B136712413E6 /* Pods-PetShop-PetShopUITests-umbrella.h */,
+				AA40238B38D4E7C5B1AC892DB6FDF8C0 /* Pods-PetShop-PetShopUITests.debug.xcconfig */,
+				86AB0AA7422067F174A7170B813A8E8E /* Pods-PetShop-PetShopUITests.release.xcconfig */,
+			);
+			name = "Pods-PetShop-PetShopUITests";
+			path = "Target Support Files/Pods-PetShop-PetShopUITests";
+			sourceTree = "<group>";
+		};
+		21C4F0C24B8E92EDEF7360A644B76219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E65A31F4C95D6EE5223C8D70E02887A /* MijickCalendarView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E65A31F4C95D6EE5223C8D70E02887A /* MijickCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				AF1B04BC4988B7C031134D2368532119 /* AnyWeekdayLabel.swift */,
+				6E4FE9204E2B4FC84E1F36E5D871A176 /* Color++.swift */,
+				5E2C5BB769C3455B438820DFC3E9E26A /* Configurable.swift */,
+				FFC307FB53795974D990B24D8398030F /* Data.swift */,
+				DAFD6BD5AB7134F79E3E151811175C6C /* Data.MCalendarView.swift */,
+				202F4C31CAE05E684C4B791C10006881 /* Data.MonthView.swift */,
+				17F03B493A44DE8393246807B42F21B7 /* Date++.swift */,
+				003910528FC61C325829501B03A599F1 /* DefaultDayView.swift */,
+				869B633654229401AD0CBFA6CD985202 /* DefaultMonthLabel.swift */,
+				2D93CB2519B7A897915796038481FFFC /* DefaultWeekdayLabel.swift */,
+				FCB936C4211C7791C5EA13D5432E7A94 /* DefaultWeekdaysView.swift */,
+				D8205F664ADA9AD2BCA21EC63D61E216 /* MCalendar.swift */,
+				A2561B1B6E1EB53D56ABE0920D385407 /* MCalendarView.swift */,
+				AF4B30880596E20D77470CA689242BF3 /* MDateFormatter.swift */,
+				AD3F0BA4F4D20A1D40A330154AF93027 /* MDateRange.swift */,
+				5053765AD92C100EB2B84F182936B2D0 /* MonthView.swift */,
+				B391A5F17351832F81952460C1C2296A /* MWeekday.swift */,
+				A0690B343DD50EBAC60F53D227036419 /* Public+CalendarConfig.swift */,
+				6CFC37A0CD3E26C33D11E09C50CF6A1C /* Public+DayView.swift */,
+				7A32BBED558C6A915FEB12B4CDA5EA93 /* Public+MCalendarView.swift */,
+				BEAA679C5C1493B188C59D5C983F5718 /* Public+MDateRange.swift */,
+				763ABA91316B91901ACFB3258C5153AB /* Public+MonthLabel.swift */,
+				CF5FC9B38D9383233AF0B79352ABC31C /* Public+MWeekday.swift */,
+				EF50924369EAD896C4B174C3618C78C6 /* Public+View.swift */,
+				348BD33B00F6351E02D65001497B920D /* Public+WeekdayLabel.swift */,
+				9A0D73053E090FF8C4FD4E1B0BFC9E29 /* Public+WeekdaysView.swift */,
+				BC9148E3E14655F0C86EA24550EDD184 /* Public+WeekdaySymbolFormat.swift */,
+				DF7F675F15031A27545E762601F846C9 /* RoundedRectangle.swift */,
+				D87A219245E96BD1437F0258F11E6734 /* View++.swift */,
+				11CB756BF67F91008864424E9C3CD859 /* Support Files */,
+			);
+			name = MijickCalendarView;
+			path = MijickCalendarView;
+			sourceTree = "<group>";
+		};
+		6F14ACB4DF0AE256C124268503B36548 /* Pods-PetShop */ = {
+			isa = PBXGroup;
+			children = (
+				13E9D0AC6EBE8B4973576903AA9CE938 /* Pods-PetShop.modulemap */,
+				7F5A717536B705C802466DFF9D7D4CC9 /* Pods-PetShop-acknowledgements.markdown */,
+				24DD0AF7B216F559A34445D81F961B18 /* Pods-PetShop-acknowledgements.plist */,
+				B6CDA42F1000733016CC99DC973A7F3E /* Pods-PetShop-dummy.m */,
+				E6E8FE0FBFB5A771EFEAB9EF6DD7E977 /* Pods-PetShop-frameworks.sh */,
+				54C1BC05AAB34E07164A7552C998AD3D /* Pods-PetShop-Info.plist */,
+				E1FCF5C467AA4B09F37883720B3FDE15 /* Pods-PetShop-umbrella.h */,
+				4050DB4804365B49E162AB63A42C7897 /* Pods-PetShop.debug.xcconfig */,
+				3AD87320A072C5EF3B092BE6EA1E5645 /* Pods-PetShop.release.xcconfig */,
+			);
+			name = "Pods-PetShop";
+			path = "Target Support Files/Pods-PetShop";
+			sourceTree = "<group>";
+		};
+		AD18A1BF5C2D5FC10F6CE9146AD9B1C9 /* Pods-PetShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3438C633F643D65E2393EE664F4916 /* Pods-PetShopTests.modulemap */,
+				E975D844BD56EAC0845D5FBABBEC2B6B /* Pods-PetShopTests-acknowledgements.markdown */,
+				6170D0B3258573E6DD3F90A837E76901 /* Pods-PetShopTests-acknowledgements.plist */,
+				EA188B835C62B365FC96073BF64FEB71 /* Pods-PetShopTests-dummy.m */,
+				A21C12FC0FC327870758B60C9C2AD22F /* Pods-PetShopTests-Info.plist */,
+				03672985E6B9E868D1A567B30BCE5815 /* Pods-PetShopTests-umbrella.h */,
+				9EF495FFA8AE9411A174B9750F671580 /* Pods-PetShopTests.debug.xcconfig */,
+				29E97CE8196291011257D1D1E34C5660 /* Pods-PetShopTests.release.xcconfig */,
+			);
+			name = "Pods-PetShopTests";
+			path = "Target Support Files/Pods-PetShopTests";
+			sourceTree = "<group>";
+		};
+		BDACA0F52984BA897B890EF687641E1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				07AF4E3F5AA134DBD9B0ECA47543E166 /* Combine.framework */,
+				41BDD9CBC6DD79CDFAFD4D0E9CFDD52D /* Foundation.framework */,
+				692A2AF4A7A89CAB9F3C827FE8569E61 /* SwiftUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1B6A4621DDE3FF934698AE5AB0CC1BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61AC1CD0EAEC9A4730EE9F3FC03CB383 /* MijickCalendarView */,
+				5D3D06042C936227A7A4AA1EE6E48E89 /* Pods-PetShop */,
+				6F9FC0CE393FFA3427C12EB1750706AF /* Pods-PetShop-PetShopUITests */,
+				542665E9C65068C4611849F6B9E2F20C /* Pods-PetShopTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				21C4F0C24B8E92EDEF7360A644B76219 /* Pods */,
+				C1B6A4621DDE3FF934698AE5AB0CC1BB /* Products */,
+				03F8B4B3EB0A4C6199B00479AA2D9214 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		236BEE50C85F86952C17FB13997C1B50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E16D473A8815C142C0E11AABE67E63 /* Pods-PetShop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6942F134B276DBA371F96BCB88EC95F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5564F148C49303C0024C34B6DDFA02B /* Pods-PetShop-PetShopUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F40E0D633408FA6E52B729351A3EDE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A406531FEE58D40D4E4001EE10E3D1BF /* MijickCalendarView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBC4968D5D10417C78B1B4A7CA102E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81A9538F2A01CBA0361BF62C5E64B50 /* Pods-PetShopTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A360328202CB4F8A9197B3CF8123C33 /* Pods-PetShop-PetShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C87BCA01D53C73D68A733B1335646BB /* Build configuration list for PBXNativeTarget "Pods-PetShop-PetShopUITests" */;
+			buildPhases = (
+				6942F134B276DBA371F96BCB88EC95F2 /* Headers */,
+				F0DC622045201701B57EDC8D0E0AC367 /* Sources */,
+				96797953170DD8D3ED35FA895B63A120 /* Frameworks */,
+				996D889B5882359E2BFAC38D82BECB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D98B629E0BEFB91EE66901D3FB974D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-PetShop-PetShopUITests";
+			productName = Pods_PetShop_PetShopUITests;
+			productReference = 6F9FC0CE393FFA3427C12EB1750706AF /* Pods-PetShop-PetShopUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		1304FF6D6F51C6F911B52A74F20EB1DD /* Pods-PetShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEFC4FC2288D19C01D64D90F849C281 /* Build configuration list for PBXNativeTarget "Pods-PetShopTests" */;
+			buildPhases = (
+				9DBC4968D5D10417C78B1B4A7CA102E5 /* Headers */,
+				E5012BFA11AAB5C7705DCDC50DEEB4D3 /* Sources */,
+				2BE06819319BABB37E325605CE632A8B /* Frameworks */,
+				DDA5CE2D01B2A13B39DF1B08A13189F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E4D5CFA17FABCF26903489AD133FCDE /* PBXTargetDependency */,
+			);
+			name = "Pods-PetShopTests";
+			productName = Pods_PetShopTests;
+			productReference = 542665E9C65068C4611849F6B9E2F20C /* Pods-PetShopTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		545B6A630F42FA975348C33F59DA20F1 /* Pods-PetShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FCF45C12C8CD3080853B2796B0086A /* Build configuration list for PBXNativeTarget "Pods-PetShop" */;
+			buildPhases = (
+				236BEE50C85F86952C17FB13997C1B50 /* Headers */,
+				508B97A3F664245117F2AAFE43E38B2E /* Sources */,
+				62EDF7C0FC7730A37DB0238D825F211F /* Frameworks */,
+				6E7BBCE29E5B632B2FCB57518B7A18B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FA1641C5AEF3B7993F9FDCFDBE122C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-PetShop";
+			productName = Pods_PetShop;
+			productReference = 5D3D06042C936227A7A4AA1EE6E48E89 /* Pods-PetShop */;
+			productType = "com.apple.product-type.framework";
+		};
+		E78055163B0041AFECD0B5E2B29F0569 /* MijickCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C50BBB300B1A0B4C4147802A08FB4E /* Build configuration list for PBXNativeTarget "MijickCalendarView" */;
+			buildPhases = (
+				6F40E0D633408FA6E52B729351A3EDE3 /* Headers */,
+				07D2BF0DB8FD3BB039EEFA1FD97F0087 /* Sources */,
+				10F0CC5F44502FC0A19818C2576ECE81 /* Frameworks */,
+				9E308354935A5DA3413BD9D2A5AD3775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MijickCalendarView;
+			productName = MijickCalendarView;
+			productReference = 61AC1CD0EAEC9A4730EE9F3FC03CB383 /* MijickCalendarView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C1B6A4621DDE3FF934698AE5AB0CC1BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E78055163B0041AFECD0B5E2B29F0569 /* MijickCalendarView */,
+				545B6A630F42FA975348C33F59DA20F1 /* Pods-PetShop */,
+				0A360328202CB4F8A9197B3CF8123C33 /* Pods-PetShop-PetShopUITests */,
+				1304FF6D6F51C6F911B52A74F20EB1DD /* Pods-PetShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E7BBCE29E5B632B2FCB57518B7A18B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996D889B5882359E2BFAC38D82BECB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E308354935A5DA3413BD9D2A5AD3775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5CE2D01B2A13B39DF1B08A13189F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D2BF0DB8FD3BB039EEFA1FD97F0087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FDAB2858C25D2AA322BA461CE43F06 /* AnyWeekdayLabel.swift in Sources */,
+				2143F0313BB5F7307E07DEA7FFAF69EF /* Color++.swift in Sources */,
+				E5A420FA95F63888455F5BF62BF174B0 /* Configurable.swift in Sources */,
+				45E95008B51FBF482FD2FA13D12D07D1 /* Data.swift in Sources */,
+				868A86FA86BEFFD1FE44CB87D7BC4CAB /* Data.MCalendarView.swift in Sources */,
+				D7C32FDA91CACF75BD4C1965478C7771 /* Data.MonthView.swift in Sources */,
+				DD1E6859FB146BA4EBBFF94B13C2C64A /* Date++.swift in Sources */,
+				A5B1F6E2892946CA5F0FF502F76EF561 /* DefaultDayView.swift in Sources */,
+				C4D8B66B2F4788FA6F33F7B5FA4F5EAE /* DefaultMonthLabel.swift in Sources */,
+				577FF0DA7BD1AD46BF14BF65EDA341E9 /* DefaultWeekdayLabel.swift in Sources */,
+				6C25705471319407F890D54030789419 /* DefaultWeekdaysView.swift in Sources */,
+				E94349BBECF3FE9A579F1149B93115E8 /* MCalendar.swift in Sources */,
+				45B6660EF8C61A83AE91B72E65DE3CCF /* MCalendarView.swift in Sources */,
+				94F29DE3C9A9275D674FD3072ED43785 /* MDateFormatter.swift in Sources */,
+				9B6E99FBAE2D13848E6218DF94197292 /* MDateRange.swift in Sources */,
+				D22872F33CE33F998ECC515349D2983D /* MijickCalendarView-dummy.m in Sources */,
+				DF2288F3428DC0173213348BEAD62CCD /* MonthView.swift in Sources */,
+				D3F1D0EC89B1275FC675FF8952D37947 /* MWeekday.swift in Sources */,
+				29621C971B9A7EB1FFDC554BCB42547C /* Public+CalendarConfig.swift in Sources */,
+				A024ECE6A0058247374F707DD532B16F /* Public+DayView.swift in Sources */,
+				4B601021277C740865594BBD67F65CB0 /* Public+MCalendarView.swift in Sources */,
+				94D94DADBF15889CA612871228D0EE56 /* Public+MDateRange.swift in Sources */,
+				73E5CF57726D5F72EA5A1202AE04CD25 /* Public+MonthLabel.swift in Sources */,
+				CB239F328633A764C9E61B6B49D0F288 /* Public+MWeekday.swift in Sources */,
+				9BE08E50C4D6973BD98FB3A50376D461 /* Public+View.swift in Sources */,
+				3B90BA7345E7CD78C1E69CE77D8E7D99 /* Public+WeekdayLabel.swift in Sources */,
+				1565A8D2D0B23FC3317BB95A198B5807 /* Public+WeekdaysView.swift in Sources */,
+				F38FA3DC9EE809FA16A976A5F30683A5 /* Public+WeekdaySymbolFormat.swift in Sources */,
+				7C9DEEC88C6B43694B6163E769382859 /* RoundedRectangle.swift in Sources */,
+				B88A7E5B6FDB6057E476A9876C86950B /* View++.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508B97A3F664245117F2AAFE43E38B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F776571EFE177CA3CFDB2966E0F0AA00 /* Pods-PetShop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5012BFA11AAB5C7705DCDC50DEEB4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E184DF6EFE8CFC5227C31634559009FB /* Pods-PetShopTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0DC622045201701B57EDC8D0E0AC367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06A71C7FFADAA0C26E83085977CAB87 /* Pods-PetShop-PetShopUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E4D5CFA17FABCF26903489AD133FCDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PetShop";
+			target = 545B6A630F42FA975348C33F59DA20F1 /* Pods-PetShop */;
+			targetProxy = 16F5452A67A34BC6EE7D3C922C2F62DA /* PBXContainerItemProxy */;
+		};
+		7FA1641C5AEF3B7993F9FDCFDBE122C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MijickCalendarView;
+			target = E78055163B0041AFECD0B5E2B29F0569 /* MijickCalendarView */;
+			targetProxy = 48F831409664A5BCBC115B466894D7C0 /* PBXContainerItemProxy */;
+		};
+		8D98B629E0BEFB91EE66901D3FB974D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MijickCalendarView;
+			target = E78055163B0041AFECD0B5E2B29F0569 /* MijickCalendarView */;
+			targetProxy = E92B107CAC9BDB523C1B47E3F61CA80A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0A7EE6B51E8CACF8EA1F50B01451EA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AB0AA7422067F174A7170B813A8E8E /* Pods-PetShop-PetShopUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F9F77C0F64DC6F3C62D7C8EFA375D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AC6210409067804F1413701483EF95 /* MijickCalendarView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MijickCalendarView/MijickCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MijickCalendarView/MijickCalendarView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MijickCalendarView/MijickCalendarView.modulemap";
+				PRODUCT_MODULE_NAME = MijickCalendarView;
+				PRODUCT_NAME = MijickCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		448A758C08AFA902653DBE684E359BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF495FFA8AE9411A174B9750F671580 /* Pods-PetShopTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetShopTests/Pods-PetShopTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PetShopTests/Pods-PetShopTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44BC7276A8D86E1F722532A0C0840958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD87320A072C5EF3B092BE6EA1E5645 /* Pods-PetShop.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetShop/Pods-PetShop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PetShop/Pods-PetShop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		557A722894379FC9EC998E92F2B7CE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AE3F4DCA3DBC02A8A80FBF5460FC68 /* MijickCalendarView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MijickCalendarView/MijickCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MijickCalendarView/MijickCalendarView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MijickCalendarView/MijickCalendarView.modulemap";
+				PRODUCT_MODULE_NAME = MijickCalendarView;
+				PRODUCT_NAME = MijickCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DC0490687B35646FC9D0A0FB44BF2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E97CE8196291011257D1D1E34C5660 /* Pods-PetShopTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetShopTests/Pods-PetShopTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PetShopTests/Pods-PetShopTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5B0A478DBB67DE347162BE4E4429CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA40238B38D4E7C5B1AC892DB6FDF8C0 /* Pods-PetShop-PetShopUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDBD1A549B9993BB08B2A209B70E656C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4050DB4804365B49E162AB63A42C7897 /* Pods-PetShop.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetShop/Pods-PetShop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PetShop/Pods-PetShop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C87BCA01D53C73D68A733B1335646BB /* Build configuration list for PBXNativeTarget "Pods-PetShop-PetShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B0A478DBB67DE347162BE4E4429CEE /* Debug */,
+				0A7EE6B51E8CACF8EA1F50B01451EA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CEFC4FC2288D19C01D64D90F849C281 /* Build configuration list for PBXNativeTarget "Pods-PetShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448A758C08AFA902653DBE684E359BE5 /* Debug */,
+				7DC0490687B35646FC9D0A0FB44BF2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C50BBB300B1A0B4C4147802A08FB4E /* Build configuration list for PBXNativeTarget "MijickCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F77C0F64DC6F3C62D7C8EFA375D82 /* Debug */,
+				557A722894379FC9EC998E92F2B7CE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FCF45C12C8CD3080853B2796B0086A /* Build configuration list for PBXNativeTarget "Pods-PetShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBD1A549B9993BB08B2A209B70E656C /* Debug */,
+				44BC7276A8D86E1F722532A0C0840958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

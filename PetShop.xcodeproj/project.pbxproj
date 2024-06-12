@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03460C7634A29B669AA905E1 /* Pods_PetShop_PetShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3FACC8D414E2B1563EDD38 /* Pods_PetShop_PetShopUITests.framework */; };
+		5975731B5BA5DBA9FBB74D94 /* Pods_PetShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B1063998CEDA57C42E41D7 /* Pods_PetShopTests.framework */; };
 		A74089AA2B7FB4C000A49FE4 /* PetShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74089A92B7FB4C000A49FE4 /* PetShopApp.swift */; };
 		A74089AC2B7FB4C000A49FE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74089AB2B7FB4C000A49FE4 /* ContentView.swift */; };
 		A74089AE2B7FB4C200A49FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74089AD2B7FB4C200A49FE4 /* Assets.xcassets */; };
@@ -23,6 +25,7 @@
 		A7A701C62BBD0BD600ADE8A3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A701C52BBD0BD600ADE8A3 /* SignUpView.swift */; };
 		A7C912B42BED236F00978E40 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C912B32BED236F00978E40 /* PointView.swift */; };
 		A7F6B9852C0EE0AF003199C5 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6B9842C0EE0AF003199C5 /* Tab.swift */; };
+		AAFBF37EAC48B724AE5B049C /* Pods_PetShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D1358383CDDD815F89F102 /* Pods_PetShop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06B1063998CEDA57C42E41D7 /* Pods_PetShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229267F8D86ABCD4438580A5 /* Pods-PetShop-PetShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetShop-PetShopUITests.debug.xcconfig"; path = "Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3DE46398B20E9E58F2B630 /* Pods-PetShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetShopTests.release.xcconfig"; path = "Target Support Files/Pods-PetShopTests/Pods-PetShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		58DC0A96954D6D1C50874C5F /* Pods-PetShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetShop.release.xcconfig"; path = "Target Support Files/Pods-PetShop/Pods-PetShop.release.xcconfig"; sourceTree = "<group>"; };
+		6C3FACC8D414E2B1563EDD38 /* Pods_PetShop_PetShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetShop_PetShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D640CBD36BD8C5A50A91B01 /* Pods-PetShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetShopTests.debug.xcconfig"; path = "Target Support Files/Pods-PetShopTests/Pods-PetShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81CCCD5B0F1DE292A1874492 /* Pods-PetShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetShop.debug.xcconfig"; path = "Target Support Files/Pods-PetShop/Pods-PetShop.debug.xcconfig"; sourceTree = "<group>"; };
 		A74089A62B7FB4C000A49FE4 /* PetShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74089A92B7FB4C000A49FE4 /* PetShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopApp.swift; sourceTree = "<group>"; };
 		A74089AB2B7FB4C000A49FE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +72,8 @@
 		A7A701C52BBD0BD600ADE8A3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		A7C912B32BED236F00978E40 /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
 		A7F6B9842C0EE0AF003199C5 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		A9D1358383CDDD815F89F102 /* Pods_PetShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9D58EC6C7CE4CB561C2F99 /* Pods-PetShop-PetShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetShop-PetShopUITests.release.xcconfig"; path = "Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFBF37EAC48B724AE5B049C /* Pods_PetShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5975731B5BA5DBA9FBB74D94 /* Pods_PetShopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03460C7634A29B669AA905E1 /* Pods_PetShop_PetShopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +111,8 @@
 				A74089B92B7FB4C200A49FE4 /* PetShopTests */,
 				A74089C32B7FB4C200A49FE4 /* PetShopUITests */,
 				A74089A72B7FB4C000A49FE4 /* Products */,
+				F8131988A4DE9C94D372F999 /* Pods */,
+				B3A53A30369D5BD7EEB61B64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +179,29 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B3A53A30369D5BD7EEB61B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1358383CDDD815F89F102 /* Pods_PetShop.framework */,
+				6C3FACC8D414E2B1563EDD38 /* Pods_PetShop_PetShopUITests.framework */,
+				06B1063998CEDA57C42E41D7 /* Pods_PetShopTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8131988A4DE9C94D372F999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81CCCD5B0F1DE292A1874492 /* Pods-PetShop.debug.xcconfig */,
+				58DC0A96954D6D1C50874C5F /* Pods-PetShop.release.xcconfig */,
+				229267F8D86ABCD4438580A5 /* Pods-PetShop-PetShopUITests.debug.xcconfig */,
+				CC9D58EC6C7CE4CB561C2F99 /* Pods-PetShop-PetShopUITests.release.xcconfig */,
+				6D640CBD36BD8C5A50A91B01 /* Pods-PetShopTests.debug.xcconfig */,
+				3A3DE46398B20E9E58F2B630 /* Pods-PetShopTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A74089CA2B7FB4C200A49FE4 /* Build configuration list for PBXNativeTarget "PetShop" */;
 			buildPhases = (
+				D3D79737FE707B080003E719 /* [CP] Check Pods Manifest.lock */,
 				A74089A22B7FB4C000A49FE4 /* Sources */,
 				A74089A32B7FB4C000A49FE4 /* Frameworks */,
 				A74089A42B7FB4C000A49FE4 /* Resources */,
+				F232FC48AC131286D452E4D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A74089CD2B7FB4C200A49FE4 /* Build configuration list for PBXNativeTarget "PetShopTests" */;
 			buildPhases = (
+				85E8480C8BCED73F9FBECA8F /* [CP] Check Pods Manifest.lock */,
 				A74089B22B7FB4C200A49FE4 /* Sources */,
 				A74089B32B7FB4C200A49FE4 /* Frameworks */,
 				A74089B42B7FB4C200A49FE4 /* Resources */,
@@ -204,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A74089D02B7FB4C200A49FE4 /* Build configuration list for PBXNativeTarget "PetShopUITests" */;
 			buildPhases = (
+				9FD18F93096DD69DA9C542BC /* [CP] Check Pods Manifest.lock */,
 				A74089BC2B7FB4C200A49FE4 /* Sources */,
 				A74089BD2B7FB4C200A49FE4 /* Frameworks */,
 				A74089BE2B7FB4C200A49FE4 /* Resources */,
+				C5D90D5ED268CBD13C6A4FA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,6 +331,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85E8480C8BCED73F9FBECA8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD18F93096DD69DA9C542BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetShop-PetShopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D90D5ED268CBD13C6A4FA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetShop-PetShopUITests/Pods-PetShop-PetShopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D79737FE707B080003E719 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F232FC48AC131286D452E4D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetShop/Pods-PetShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetShop/Pods-PetShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetShop/Pods-PetShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A74089A22B7FB4C000A49FE4 /* Sources */ = {
@@ -376,7 +524,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -439,7 +587,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -460,6 +608,7 @@
 		};
 		A74089CB2B7FB4C200A49FE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81CCCD5B0F1DE292A1874492 /* Pods-PetShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +640,7 @@
 		};
 		A74089CC2B7FB4C200A49FE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DC0A96954D6D1C50874C5F /* Pods-PetShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -522,6 +672,7 @@
 		};
 		A74089CE2B7FB4C200A49FE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D640CBD36BD8C5A50A91B01 /* Pods-PetShopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +693,7 @@
 		};
 		A74089CF2B7FB4C200A49FE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3DE46398B20E9E58F2B630 /* Pods-PetShopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -562,6 +714,7 @@
 		};
 		A74089D12B7FB4C200A49FE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229267F8D86ABCD4438580A5 /* Pods-PetShop-PetShopUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +733,7 @@
 		};
 		A74089D22B7FB4C200A49FE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9D58EC6C7CE4CB561C2F99 /* Pods-PetShop-PetShopUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

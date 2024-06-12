@@ -1,0 +1,6 @@
+framework module Pods_PetShop_PetShopUITests {
+  umbrella header "Pods-PetShop-PetShopUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
